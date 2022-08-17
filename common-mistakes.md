@@ -10,7 +10,7 @@ It's wrong to assume that developers job is to write code and someone elses job 
  
  - **Speed is all That Matters!**
 
-Being a good typist and knowing you tools well enoght to more arround efficiently is sertanly a good thing but if you are hoping that typing speed will improve your performance you are optimizing the wrong part of the problem. Developers aim should always to be to write less code.
+Being a good typist and knowing you tools well enoght to more arround efficiently is sertanly a good thing but if you are hoping that typing speed will improve your performance you are optimizing the wrong part of the problem. Developers aim should always to be to write less code. So pausing and thinking about the alternative ways forward is always a good idea.
 
  - My Job is to Code Not to Understand the Problem Domain!
  - I Can't Ask for Help! It Shows That I Don't Know Enough
