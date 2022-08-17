@@ -1,6 +1,9 @@
 # Avoid These Common Mistakes Developers Make!
 ---
  - Software Development is All About Coding!
+
+ Software Developers create software systems that are ment to solve problems for people in some way.
+
  - If Only the Business Would Get the Requirements Right!
  - Speed is all That Matters!
  - My Job is to Code Not to Understand the Problem Domain!
