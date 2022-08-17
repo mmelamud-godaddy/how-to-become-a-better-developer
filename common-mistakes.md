@@ -2,7 +2,7 @@
 ---
  - Software Development is All About Coding!
 
- Software Developers create software systems that are ment to solve problems for people in some way.
+Software Developers create software systems that are meant to solve problems for people in some way. Solving problems, not writing code that is our job. As a profession we are obsessed far too much about tools and don't spend enough time thinking about what we realy are paid to do, so instead take more ownership of the problems that you're trying to solve. Always think: "Would I like to use this software?" and if the answer is "No" why is that? And could of you do something different to change that?
 
  - If Only the Business Would Get the Requirements Right!
  - Speed is all That Matters!
