@@ -6,13 +6,16 @@ Software Developers create software systems that are meant to solve problems for
 
  - **If Only the Business Would Get the Requirements Right!**
  
-It's wrong to assume that developers job is to write code and someone elses job is to tell developers what code to write. Business cannot simply tell you what the sollution to a problem is so you can translate that into code.
+It's wrong to assume that developers job is to write code and someone elses job is to tell developers what code to write. Business cannot clearly and concisely tell you what the sollution to a problem is so you can translate that into code. If a developers job would be simply a translation job from a description that is detailed enough to be correct then could we just automate that translation and effectevly turn this description into the code itself? What then the point of developers at all? The people writing descriptions would be developers then. In reality it is much more difficult than that.
  
  - **Speed is all That Matters!**
 
 Being a good typist and knowing you tools well enoght to move arround efficiently is certainly a good thing but if you are hoping that typing speed will improve your performance you are optimizing the wrong part of the problem. Developers aim should always be to write less code to resolve a problem. So pausing and thinking about the alternative ways forward is always a good idea.
 
- - My Job is to Code Not to Understand the Problem Domain!
+ - **My Job is to Code Not to Understand the Problem Domain!**
+
+However well you know your programming language and programming tools if you don't undestand the problem you are working on in some depth you'll do a poor job.
+
  - I Can't Ask for Help! It Shows That I Don't Know Enough
  - Software Architecture is for the Experts!
  - Testing is Someone Else's Job!
