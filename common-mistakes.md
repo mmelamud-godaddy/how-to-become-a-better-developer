@@ -6,7 +6,7 @@ Software Developers create software systems that are meant to solve problems for
 
  - **If Only the Business Would Get the Requirements Right!**
  
-It's wrong to assume that developers job is to write code and someone elses job to tell developers what code to write. Business cannot simply tell you what the sollution is so you can translate that into code.
+It's wrong to assume that developers job is to write code and someone elses job is to tell developers what code to write. Business cannot simply tell you what the sollution to a problem is so you can translate that into code.
  
  - **Speed is all That Matters!**
 
