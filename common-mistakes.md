@@ -14,7 +14,7 @@ Being a good typist and knowing you tools well enoght to move arround efficientl
 
  - **My Job is to Code Not to Understand the Problem Domain!**
 
-However well you know your programming language and programming tools if you don't undestand the problem you are working on in some depth you'll do a poor job.
+However well you know your programming language and programming tools if you don't undestand the problem you are working on in some depth you'll do a poor job. You don't have to be a Domain Expert, it some ways it worse than that. The best programmers know the Problem Domain well enough to have Domain insights that even experts some times miss. We wont have same kind Domain expertise as a true Eomain Expert, and knowledge will often be a little bit more surfaced, but if we're doing well we'll spot a similarities and an opportunities that Domain Experts miss because they are too close to the problem. Pay attention when people are talking about Problem Domain. Work to establish a common language that you can share with Domain Experts to explore and explain problems.
 
  - I Can't Ask for Help! It Shows That I Don't Know Enough
  - Software Architecture is for the Experts!
