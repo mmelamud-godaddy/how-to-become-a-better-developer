@@ -4,6 +4,7 @@
 
 ### Software Development / Engineering / TDD / BDD Talks
 - [TDD, Where Did It All Go Wrong (Ian Cooper)](https://www.youtube.com/watch?v=EZ05e7EMOLM)
+- [TDD / BDD with Javascript](https://medium.com/@ryuta_udo/tdd-bdd-with-javascript-3dde511e4e2f)
 
 ### Programming Languages / Projects / Labs / Tutorials
 - [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified)
