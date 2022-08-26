@@ -14,7 +14,7 @@
 
 4. **Duplicate Code**
 
-   Duplicated code is the bane of software development. Stamp out duplication whenever possible. You should always be on the lookout for more subtle cases of near-duplication, too. *-Don't Repeat Yourself!-*[^1]
+   Duplicated code is the bane of software development. Stamp out duplication whenever possible. You should always be on the lookout for more subtle cases of near-duplication, too. *Don't Repeat Yourself!*[^1]
 
 5. **Conditional Complexity**
 
