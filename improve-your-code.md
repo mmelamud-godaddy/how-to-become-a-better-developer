@@ -14,8 +14,11 @@
 
 4. **Duplicate Code**
 
-   Duplicated code is the bane of software development. Stamp out duplication whenever possible. You should always be on the lookout for more subtle cases of near-duplication, too. [Don't Repeat Yourself!](https://www.artima.com/articles/orthogonality-and-the-dry-principle)
+   Duplicated code is the bane of software development. Stamp out duplication whenever possible. You should always be on the lookout for more subtle cases of near-duplication, too. *-Don't Repeat Yourself!-*[^1]
 
 5. **Conditional Complexity**
 
    Watch out for large conditional logic blocks, particularly blocks that tend to grow larger or change significantly over time. Consider alternative object-oriented approaches such as [decorator](https://www.dofactory.com/javascript/design-patterns/decorator), [strategy](https://www.dofactory.com/javascript/design-patterns/strategy), or [state](https://www.dofactory.com/javascript/design-patterns/state) or their functional programming equivalents: [decorator](https://medium.com/qualyteam-engineering/decorator-design-pattern-in-functional-and-object-oriented-programming-e0a2be3c5679), [state](https://betterprogramming.pub/the-state-design-pattern-in-javascript-4eebdf5e471), or [strategy](https://thomas-rubattel.medium.com/strategy-pattern-in-functional-programming-38ddcc2b2d50).
+   
+ 
+ [^1]: ["Don't repeat yourself" (DRY)](https://www.plutora.com/blog/understanding-the-dry-dont-repeat-yourself-principle) is a principle of software development aimed at reducing repetition of software patterns,[1] replacing it with abstractions or using data normalization to avoid redundancy.
