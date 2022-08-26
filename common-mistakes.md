@@ -20,3 +20,4 @@ However well you know your programming language and programming tools if you don
  - Software Architecture is for the Experts!
  - Testing is Someone Else's Job!
  - I Would Like to do a Better Job, But My Boss Won't Let Me!
+ - If Only Customers Would Use Our Product in the Way We Designed and Developed It!
