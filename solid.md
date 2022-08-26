@@ -30,7 +30,7 @@ In terms of FP, this principle is quite intuitive. Keep all the internal logic p
 
 - **Dependency Inversion Principle**
 
-*One should depend upon abstractions, [not] concretions.*
+*One should depend upon abstractions, not on concretions.*
 
 ## SOLID Principles in Functional Programming
 ![solid](https://user-images.githubusercontent.com/81258448/186962860-bbacd126-d577-4da4-bcdf-5d75f153f7a9.png)
