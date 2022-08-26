@@ -24,6 +24,10 @@ Gather together the things that change for the same reasons. Separate things tha
 
 *Many client-specific interfaces are better than one general-purpose interface.*
 
+Keep interfaces small so that users don’t end up depending on things they don’t need. Creating any interfaces keeps them as small as possible. Divide big interfaces into smaller ones, to make sure every interface delivers exactly what it promises and nothing more.
+
+In terms of FP, this principle is quite intuitive. Keep all the internal logic private and provide only the customer-facing functions outside the module. Show nothing more than what’s necessary to use your module correctly.
+
 - **Dependency Inversion Principle**
 
 *One should depend upon abstractions, [not] concretions.*
