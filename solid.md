@@ -1,5 +1,17 @@
-# S.O.L.I.D. Principles
----
+## What is SOLID?
+
+> SOLID is a mnemonic acronym for five design principles intended to make software designs more understandable, flexible and maintainable
+
+They were first introduced by Robert C. Martin in the early 2000s in his paper *Design Principles and Design Patterns*[^1] and they are the following:
+
+- Single-Responsibility Principle
+- Open–Closed Principle
+- Liskov Substitution Principle
+- Interface Segregation Principle
+- Dependency Inversion Principle
+
+## SOLID Principles
+
 - **Single-Responsibility Principle**
 
 *Every class or method in your program should have only a single reason to change.*
@@ -38,3 +50,5 @@ In functional programming, abstractions are the default way of handling code, fu
 
 ## SOLID Principles in Functional Programming
 ![solid](https://user-images.githubusercontent.com/81258448/186962860-bbacd126-d577-4da4-bcdf-5d75f153f7a9.png)
+
+ [^1]: [Design Principles and Design Patterns](http://staff.cs.utu.fi/~jounsmed/doos_06/material/DesignPrinciplesAndPatterns.pdf) by Robert C. Martin
