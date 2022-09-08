@@ -11,8 +11,9 @@ They were first introduced by Robert C. Martin in the early 2000s in his paper *
 - [Dependency Inversion Principle](https://github.com/mmelamud-godaddy/how-to-become-a-better-developer/blob/main/solid.md#dependency-inversion-principle)
 
 # SOLID Principles in Functional Programming
-![solid](https://user-images.githubusercontent.com/81258448/186962860-bbacd126-d577-4da4-bcdf-5d75f153f7a9.png)
-
+<p align="center">
+  <img width="440" height="262" src="https://user-images.githubusercontent.com/81258448/186962860-bbacd126-d577-4da4-bcdf-5d75f153f7a9.png">
+</p>
 ## Single-Responsibility Principle
 
 *Every class or method in your program should have only a single reason to change.*
