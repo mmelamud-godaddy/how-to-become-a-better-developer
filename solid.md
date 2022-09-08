@@ -18,7 +18,7 @@ They were first introduced by Robert C. Martin in the early 2000s in his paper *
 
 ## Single-Responsibility Principle
 
-#### *Every class or method in your program should have only a single reason to change.*
+### *Every class or method in your program should have only a single reason to change.*
 
 An object should only have a single responsibility, that is, only changes to one part of the software's specification should be able to affect the specification of the object.
 
@@ -26,11 +26,11 @@ Gather together the things that change for the same reasons. Separate things tha
 
 ## Open/Closed Principle
 
-*Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification*
+### *Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification*
 
 ## Liskov Substitution Principle
 
-*Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.*
+### *Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.*
 
 > *What is wanted here is something like the following substitution property: If for each object o1 of type S there is an object o2 of type T such that for all programs P defined in terms of T, the behavior of P is unchanged when o1 is substituted for o2 then S is a subtype of T*
 > 
@@ -38,7 +38,7 @@ Gather together the things that change for the same reasons. Separate things tha
 
 ## Interface Segregation Principle
 
-*Many client-specific interfaces are better than one general-purpose interface.*
+### *Many client-specific interfaces are better than one general-purpose interface.*
 
 Keep interfaces small so that users don’t end up depending on things they don’t need. Creating any interfaces keeps them as small as possible. Divide big interfaces into smaller ones, to make sure every interface delivers exactly what it promises and nothing more.
 
@@ -46,7 +46,7 @@ In terms of FP, this principle is quite intuitive. Keep all the internal logic p
 
 ## Dependency Inversion Principle
 
-*One should depend upon abstractions, not on concretions.*
+### *One should depend upon abstractions, not on concretions.*
 
 In languages like C#, this is achieved by using two tools. One is to create interfaces to define contracts of a predefined functionality. The other is to use dependency injection so that users of that functionality don't manually instantiate the concrete class, instead, they receive an instance of the interface through their constructor and they just call the appropriate methods on the instance.
 
