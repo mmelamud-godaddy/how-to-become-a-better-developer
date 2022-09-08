@@ -12,7 +12,9 @@ _by Robert Martin_
 
 TDD in practice is actually a cycle, where we first write tests that fail, then we write the minimum amount of functionality to make that test pass, then finally we refactor the program to improve it without changing its external behaviour.
 
-![tdd-cycle-500](https://user-images.githubusercontent.com/81258448/184520566-fe657b4f-8d5c-429a-a209-65d7c23ce15c.png)
+<p align="center">
+  <img width="500" height="465" src="https://user-images.githubusercontent.com/81258448/184520566-fe657b4f-8d5c-429a-a209-65d7c23ce15c.png">
+</p>
 
 ### RED
 
