@@ -4,16 +4,14 @@
 
 They were first introduced by Robert C. Martin in the early 2000s in his paper *Design Principles and Design Patterns*[^1] and they are the following:
 
-- Single-Responsibility Principle
-- Open–Closed Principle
-- Liskov Substitution Principle
-- Interface Segregation Principle
-- Dependency Inversion Principle
+- [Single-Responsibility Principle](https://github.com/mmelamud-godaddy/how-to-become-a-better-developer/blob/main/solid.md#single-responsibility-principle)
+- [Open–Closed Principle](https://github.com/mmelamud-godaddy/how-to-become-a-better-developer/blob/main/solid.md#openclosed-principle)
+- [Liskov Substitution Principle](https://github.com/mmelamud-godaddy/how-to-become-a-better-developer/blob/main/solid.md#liskov-substitution-principle)
+- [Interface Segregation Principle](https://github.com/mmelamud-godaddy/how-to-become-a-better-developer/blob/main/solid.md#interface-segregation-principle)
+- [Dependency Inversion Principle](https://github.com/mmelamud-godaddy/how-to-become-a-better-developer/blob/main/solid.md#dependency-inversion-principle)
 
 # SOLID Principles in Functional Programming
 ![solid](https://user-images.githubusercontent.com/81258448/186962860-bbacd126-d577-4da4-bcdf-5d75f153f7a9.png)
-
-# SOLID Principles
 
 ## Single-Responsibility Principle
 
