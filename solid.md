@@ -1,4 +1,4 @@
-## What is SOLID?
+# What is SOLID?
 
 > SOLID is a mnemonic acronym for five design principles intended to make software designs more understandable, flexible and maintainable
 
@@ -10,9 +10,12 @@ They were first introduced by Robert C. Martin in the early 2000s in his paper *
 - Interface Segregation Principle
 - Dependency Inversion Principle
 
-## SOLID Principles
+# SOLID Principles in Functional Programming
+![solid](https://user-images.githubusercontent.com/81258448/186962860-bbacd126-d577-4da4-bcdf-5d75f153f7a9.png)
 
-- **Single-Responsibility Principle**
+# SOLID Principles
+
+## Single-Responsibility Principle
 
 *Every class or method in your program should have only a single reason to change.*
 
@@ -20,11 +23,11 @@ An object should only have a single responsibility, that is, only changes to one
 
 Gather together the things that change for the same reasons. Separate things that change for different reasons.
 
-- **Open/Closed Principle**
+## Open/Closed Principle
 
 *Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification*
 
-- **Liskov Substitution Principle**
+## Liskov Substitution Principle
 
 *Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.*
 
@@ -32,7 +35,7 @@ Gather together the things that change for the same reasons. Separate things tha
 > 
 > *Barbara Liskov*
 
-- **Interface Segregation Principle**
+## Interface Segregation Principle
 
 *Many client-specific interfaces are better than one general-purpose interface.*
 
@@ -40,15 +43,12 @@ Keep interfaces small so that users don’t end up depending on things they don�
 
 In terms of FP, this principle is quite intuitive. Keep all the internal logic private and provide only the customer-facing functions outside the module. Show nothing more than what’s necessary to use your module correctly.
 
-- **Dependency Inversion Principle**
+## Dependency Inversion Principle
 
 *One should depend upon abstractions, not on concretions.*
 
 In languages like C#, this is achieved by using two tools. One is to create interfaces to define contracts of a predefined functionality. The other is to use dependency injection so that users of that functionality don't manually instantiate the concrete class, instead, they receive an instance of the interface through their constructor and they just call the appropriate methods on the instance.
 
 In functional programming, abstractions are the default way of handling code, functions are abstractions too, especially in functional programming where we care more about the "shape" of the data instead of to which specific type they are attached to. This creates the possibility to freely change the implementation at runtime by passing functions as parameters to other functions or even returning functions as results from the computation.
-
-## SOLID Principles in Functional Programming
-![solid](https://user-images.githubusercontent.com/81258448/186962860-bbacd126-d577-4da4-bcdf-5d75f153f7a9.png)
 
  [^1]: [Design Principles and Design Patterns](http://staff.cs.utu.fi/~jounsmed/doos_06/material/DesignPrinciplesAndPatterns.pdf) by Robert C. Martin
