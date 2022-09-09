@@ -1,6 +1,16 @@
 # Test Driven Development (TDD)
 ---
 
+## What is TDD?
+
+TDD refers to Test Driven Development. TDD is used to design and develop the tests for the functionality of the product. We don’t have to write duplicate code if we are working with TDD. If an automated test case fails then the developer has to write the new code.
+
+The purpose of TDD is to make code bug-free, simple and clearer. The work of TDD is to fix the failed test cases before writing the new test cases. It is also called Test First Development.
+
+<p align="center">
+  <img width="454" height="258" src="https://user-images.githubusercontent.com/81258448/189261785-6e96fa39-8933-48e1-b91d-f6dcae71a9a1.png">
+</p>
+
 ## The three Laws of TDD
 1. You are not allowed to write any production code unless it is to make a failing unit test fail.
 2. You are not allowed to write any more of unit tests than is sufficient to fail; and compilation failures are failures.
