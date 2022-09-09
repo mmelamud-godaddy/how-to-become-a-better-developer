@@ -1,18 +1,18 @@
 # Avoid These Common Mistakes Developers Make!
 ---
- - #### Software Development is All About Coding!
+ - ### Software Development is All About Coding!
 
 Software Developers create software systems that are meant to solve problems for people in some way. Solving problems, not writing code that is our job. As a profession we are obsessed far too much about tools and don't spend enough time thinking about what we really are paid to do, so instead take more ownership of the problems that you're trying to solve. Always think: "Would I like to use this software?" and if the answer is "No" why is that? And could of you do something different to change that? You not going to be a great developer if you type lots of code faster. You'll become better developer if you solve more problems with less code.
 
- - #### If Only the Business Would Get the Requirements Right!
+ - ### If Only the Business Would Get the Requirements Right!
  
 It's wrong to assume that developers job is to write code and someone elses job is to tell developers what code to write. Business cannot clearly and concisely tell you what the sollution to a problem is so you can translate that into code. If a developers job would be simply a translation job from a description that is detailed enough to be correct then could we just automate that translation and effectevly turn this description into the code itself? What then the point of developers at all? The people writing descriptions would be developers then. In reality it is much more difficult than that.
  
- - #### Speed is all That Matters!
+ - ### Speed is all That Matters!
 
 Being a good typist and knowing you tools well enoght to move arround efficiently is certainly a good thing but if you are hoping that typing speed will improve your performance you are optimizing the wrong part of the problem. Developers aim should always be to write less code to resolve a problem. So pausing and thinking about the alternative ways forward is always a good idea.
 
- - #### My Job is to Code Not to Understand the Problem Domain!
+ - ### My Job is to Code Not to Understand the Problem Domain!
 
 However well you know your programming language and programming tools if you don't undestand the problem you are working on in some depth you'll do a poor job. You don't have to be a Domain Expert, it some ways it worse than that. The best programmers know the Problem Domain well enough to have Domain insights that even experts some times miss. We wont have same kind Domain expertise as a true Eomain Expert, and knowledge will often be a little bit more surfaced, but if we're doing well we'll spot a similarities and an opportunities that Domain Experts miss because they are too close to the problem. Pay attention when people are talking about Problem Domain. Work to establish a common language that you can share with Domain Experts to explore and explain problems.
 
