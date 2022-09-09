@@ -32,9 +32,12 @@ Gather together the things that change for the same reasons. Separate things tha
 
 ### *Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.*
 
-> *What is wanted here is something like the following substitution property: If for each object o1 of type S there is an object o2 of type T such that for all programs P defined in terms of T, the behavior of P is unchanged when o1 is substituted for o2 then S is a subtype of T*
+> *Let q(x) be a property provable about objects x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T.*
 > 
 > *Barbara Liskov*
+
+In other words:
+> Subtypes must not change any supertype’s significant behavior. Here, “significant behavior” means behavior upon which clients of those objects expressly depend
 
 ## Interface Segregation Principle
 
