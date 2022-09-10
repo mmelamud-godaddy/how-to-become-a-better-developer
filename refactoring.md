@@ -21,8 +21,8 @@ var logCards = function(cards) {
     });
 };
 
-var posts = getCards();
-logCards(posts);
+var cards = getCards();
+logCards(cards);
 ```
 
 - Work to Reduce Cyclomatic-Complexity
