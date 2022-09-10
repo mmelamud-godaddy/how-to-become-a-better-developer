@@ -47,6 +47,30 @@ Keep interfaces small so that users don’t end up depending on things they don�
 
 In terms of FP, this principle is quite intuitive. Keep all the internal logic private and provide only the customer-facing functions outside the module. Show nothing more than what’s necessary to use your module correctly.
 
+JavaScript doesn’t play well with interfaces, but here is a very rough example of applying Interface Segregation Principle in Javascript using composition.
+
+The interface segregation principle states that an entity should never be forced to implement an interface that contains elements which it will never use. For example, a `Penguin` should never be forced to implement a `Bird` interface if that Bird interface includes functionality relating to flying, as penguins (spoiler alert) cannot fly.
+
+```javascript
+class Penguin {}
+
+class Bird {}
+
+const flyer = {
+    fly() {
+        console.log(`Flap flap, I'm flying!`);
+    },
+};
+
+Object.assign(Bird.prototype, flyer);
+
+const bird = new Bird();
+bird.fly(); // Outputs 'Flap flap, I'm flying!'
+
+const penguin = new Penguin();
+penguin.fly(); // 'Error: penguin.fly is not a function'
+```
+
 ## Dependency Inversion Principle
 
 ### *One should depend upon abstractions, not on concretions.*
