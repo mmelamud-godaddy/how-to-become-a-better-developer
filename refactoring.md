@@ -1,4 +1,4 @@
-# Refactoring
+# Refactoring[^1]
 ---
 
 - Extract Functions/Methods
@@ -30,3 +30,5 @@ logCards(cards);
 - Look Out for Re-Use
 - Work in Very Small Steps
 - Separate Concerns
+
+[^1]: [Refactoring: Improving the Design of Existing Code](https://www.martinfowler.com/books/refactoring.html) by Martin Fowler, with Kent Beck
