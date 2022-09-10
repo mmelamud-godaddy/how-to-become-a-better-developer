@@ -28,6 +28,10 @@ Gather together the things that change for the same reasons. Separate things tha
 
 ### *Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification*
 
+This principle is usually instantly related to inheritance. A well-defined parent class that holds functionality and children of this class extend or reuse the mentioned functionality. In reality, it just means that we should be able to reuse and extend code without having to modify the original implementation.
+
+Instead of using inheritance, Functional Programming achieves this by using two tools. Composition to create new behaviors from previously defined functions and higher-order functions to change functionality at runtime.
+
 ## Liskov Substitution Principle
 
 ### *Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.*
