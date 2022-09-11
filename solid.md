@@ -18,11 +18,13 @@ They were first introduced by Robert C. Martin in the early 2000s in his paper *
 
 ## Single-Responsibility Principle
 
-### *Every class or method in your program should have only a single reason to change.*
+### *Every entitie (classe, module, functions, etc.) in your program should have only a single reason to change.*
 
 An object should only have a single responsibility, that is, only changes to one part of the software's specification should be able to affect the specification of the object.
 
-Gather together the things that change for the same reasons. Separate things that change for different reasons.
+> Functions that do more than one thing are very difficult to debug and to test. 
+
+Instead of writing all the code in one function, we should always remember to break it in different modules. Gather together the things that change for the same reasons. Separate things that change for different reasons.
 
 ## Open/Closed Principle
 
