@@ -34,4 +34,4 @@ logCards(cards);
 - Separate Concerns
 
 [^1]: [Refactoring: Improving the Design of Existing Code](https://www.martinfowler.com/books/refactoring.html) by Martin Fowler, with Kent Beck
-[^2]: Cyclomatic complexity measures the number of linearly independent paths through a program's source code. This rule allows setting a cyclomatic complexity threshold.
+[^2]: Cyclomatic Complexity measures the number of linearly independent paths through a program's source code. This rule allows setting a cyclomatic complexity threshold. [Easing into Cyclomatic Complexity](https://dev.to/igneel64/easing-into-cyclomatic-complexity-38b1)
