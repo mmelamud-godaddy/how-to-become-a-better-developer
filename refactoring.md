@@ -1,7 +1,7 @@
 # Refactoring[^1]
 ---
 
-> Refactor Safely, Refactor Early, Refactor Often!
+> ### Refactor Safely, Refactor Early, Refactor Often!
 
 - Extract Functions/Methods
 
