@@ -14,7 +14,9 @@
 
 4. **Duplicate Code**
 
-   Duplicated code is the bane of software development. Stamp out duplication whenever possible. You should always be on the lookout for more subtle cases of near-duplication, too. *Don't Repeat Yourself!*[^1]
+   > Every piece of knowledge or logic must have a single, unambiguous representation within a system.
+
+   Duplicating code always ends with a mess. If you fixed a bug somewhere you need to re-patch it multiple times. Having less and non-redundant code saves time as well as increases maintainability. *Don't Repeat Yourself!*[^1]
 
 5. **Conditional Complexity**
 
