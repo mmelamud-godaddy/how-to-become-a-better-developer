@@ -1,6 +1,8 @@
 # Refactoring[^1]
 ---
 
+> Refactor Safely, Refactor Early, Refactor Often!
+
 - Extract Functions/Methods
 
 You have a code fragment that can be grouped together.
