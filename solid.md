@@ -32,6 +32,43 @@ Instead of writing all the code in one function, we should always remember to br
 
 This principle is usually instantly related to inheritance. A well-defined parent class that holds functionality and children of this class extend or reuse the mentioned functionality. In reality, it just means that we should be able to reuse and extend code without having to modify the original implementation.
 
+Consider the below example:
+
+```javascript
+let carCleaningStudio = {
+  cars : ['BMW', 'Mercedes'],
+  washCar : function(car) {
+    if(this.cars.includes(car)){
+      console.log("Yay, we're washing your car");
+    }else {
+      console.log("Sorry, we don't wash this type of car");
+    }  
+  },
+};
+carCleaningStudio.washCar('Tesla'); // Sorry, we don't wash this type of car
+```
+In this example, if We want to wash a new type of car, We can’t do it because We don’t have the permission to use it on the objects that We want to use it on. If We want to wash a new type of car, then We’d have to change the code of this file and hence, it would violate the OpenClosed principle.
+
+To make things right We can add a new function `addCar()` which would make this open for extension.
+
+```javascript
+let carCleaningStudio = {
+  cars : ['BMW', 'Mercedes'],
+  washCar : function(car) {
+    if(this.cars.includes(car)){
+      console.log("Yay, we're washing your car");
+    }else {
+      console.log("Sorry, we don't wash this type of car");
+    }  
+  },
+  addCar : function(car) {
+    this.cars.push(car);
+  }
+};
+carCleaningStudio.addCar('Tesla');
+carCleaningStudio.washCar('Tesla');   // Yay, we're washing your car
+```
+
 Instead of using inheritance, Functional Programming achieves this by using two tools. Composition to create new behaviors from previously defined functions and higher-order functions to change functionality at runtime.
 
 ## Liskov Substitution Principle
