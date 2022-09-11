@@ -24,7 +24,7 @@ An object should only have a single responsibility, that is, only changes to one
 
 > Functions that do more than one thing are very difficult to debug and to test. 
 
-Instead of writing all the code in one function, we should always remember to break it in different modules. Gather together the things that change for the same reasons. Separate things that change for different reasons.
+Instead of writing all the code in one function, we should always remember to break it in different modules (see [refactoring](https://github.com/mmelamud-godaddy/how-to-become-a-better-developer/blob/main/refactoring.md)). Gather together the things that change for the same reasons. Separate things that change for different reasons.
 
 ## Open/Closed Principle
 
