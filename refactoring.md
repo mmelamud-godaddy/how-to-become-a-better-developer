@@ -27,10 +27,11 @@ var cards = getCards();
 logCards(cards);
 ```
 
-- Work to Reduce Cyclomatic-Complexity
+- Work to Reduce Cyclomatic Complexity[^2]
 - Move Related Concepts Closer Together
 - Look Out for Re-Use
 - Work in Very Small Steps
 - Separate Concerns
 
 [^1]: [Refactoring: Improving the Design of Existing Code](https://www.martinfowler.com/books/refactoring.html) by Martin Fowler, with Kent Beck
+[^2]: Cyclomatic complexity measures the number of linearly independent paths through a program's source code. This rule allows setting a cyclomatic complexity threshold.
