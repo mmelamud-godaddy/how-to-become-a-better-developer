@@ -10,7 +10,7 @@ You have a code fragment that can be grouped together.
 ```javascript
 const cards = getCards();
 cards.forEach(function(card) {
-    console.log(card);
+  console.log(card);
 });
 ```
 
@@ -18,9 +18,9 @@ Extract the fragment into a new function/method.
 
 ```javascript
 var logCards = function(cards) {
-    posts.forEach(function(card) {
-        console.log(card);
-    });
+  posts.forEach(function(card) {
+      console.log(card);
+  });
 };
 
 var cards = getCards();
