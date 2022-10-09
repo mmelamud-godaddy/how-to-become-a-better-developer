@@ -18,6 +18,9 @@ However well you know your programming language and programming tools if you don
 
  - ### I Can't Ask for Help! It Shows That I Don't Know Enough
  - ### Software Architecture is for the Experts!
+ 
+Designing good architecture takes experience. You need to have seen similar things done in at least three different ways and, idealy, in a three different technologies before You really have that kind of experience. Software Architecture is about more than just only creating it. A good Software Architecture is a bit like a tourist map of a system: it shows you enough to find your way around without going into too much detail so that you can't find out where you really are. Any developer should be able to describe how the system that they work on works, idealy, to a non-technical person, but at least to a technical person who does not know anything about the system. Could you explain architecture of a system to a non-technical person? What are the organizing principles in a system you are working on that really matter? What ideas helped You to decide where to place behaviour in your system? What the "tourist map" for your system? 
+ 
  - ### Testing is Someone Else's Job!
  - ### I Would Like to do a Better Job, But My Boss Won't Let Me!
  - ### If Only Customers Would Use Our Product in the Way We Designed and Developed It!
