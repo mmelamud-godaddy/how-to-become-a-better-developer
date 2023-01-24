@@ -18,7 +18,7 @@ Extract the fragment into a new function/method.
 
 ```javascript
 const logCards = cards => {
-  posts.forEach(function(card) {
+  posts.forEach(card => {
     console.log(card);
   });
 };
