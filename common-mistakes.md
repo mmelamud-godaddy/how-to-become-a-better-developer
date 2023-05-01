@@ -26,7 +26,15 @@ Designing good architecture takes experience. You need to have seen similar thin
  
  - ### Testing is Someone Else's Job!
 
-If you write code how do you know if it works? Even if you write code without an automated tests then presumably you'll run it first to see if it works. So debate comes to should our tests be automated or manual. Preferably tests should be automated. But who should write those tests? And the answer is us, developers. Developers are the people who write code that potentially can break tests and developers are the ones who will have to fix it. Developers should see the mistake first. we as developers should own the responsibility for the tests that are running and most of the time we are the best place to write them ourself too. Remember Agile exists to solve problems and not to write code. How can we tell that problem is solved without checking to see if it is?
+Testing is an integral part of software development, and the responsibility for ensuring that the software works correctly lies with the developer.
+
+If a developer writes code without testing it, they are not aware of any potential bugs or issues that might arise. This can lead to faulty software, which can cause problems for users and damage the reputation of the developer and the company they work for.
+
+Automated tests are preferable to manual tests because they are faster, more accurate, and can be run automatically as part of the build process. This reduces the risk of human error and ensures that the software is tested thoroughly and consistently.
+
+Developers are the best people to write automated tests because they understand the code they have written, and they are familiar with the requirements and functionality of the software. They are also responsible for fixing any issues that are found, so they are motivated to ensure that the software is tested thoroughly.
+
+In summary, it is a mistake for developers to think that testing and writing tests is not their responsibility. Testing is an essential part of software development, and the responsibility for ensuring that the software works correctly lies with the developer. Developers should take ownership of the testing process, write automated tests, and ensure that the software is thoroughly tested before it is released.
 
  - ### I Would Like to do a Better Job, But My Boss Won't Let Me!
  - ### If Only Customers Would Use Our Product in the Way We Designed and Developed It!
