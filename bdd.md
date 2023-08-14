@@ -14,6 +14,12 @@ This means writing the tests before developing the software, making the software
 
 This is not about testing. It is about conversations.
 
+Behaviour-Driven Development (BDD) is a collaborative approach to software development that bridges the communication gap between business and IT. BDD helps teams communicate requirements with more precision, discover defects early and produce software that remains maintainable over time.
+
+It helps teams create business requirements that can be understood by the whole team. Specifying examples uncovers misunderstanding people might not even be aware of. Teams that practice BDD focus on preventing defects rather than finding them. This leads to less rework and quicker time to market.
+
+The two main practices in the BDD approach are discovery workshops, which bridge the communication gap between business and IT, and executable specifications.
+
 The development team will talk to the business about the requirements, gaining enough information to be able to write scenarios that make development of the software more aligned with the actual business needs. (Whether this is a Word document or a test, it doesn't matter).
 
 The scenarios created should be understandable by the business, the development team and everyone in between using language that both agree on.
